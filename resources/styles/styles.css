@@ -1,0 +1,67 @@
+body, html { height: 100% }
+
+main#welcome { height: 100% }
+
+main#welcome div.jumbotron-image {
+    background-image: url("../media/background-jumbotron.jpg");
+
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    z-index: 1;
+}
+
+main#welcome header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-align: center;
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+
+    font-size: 3rem;
+}
+
+main#welcome button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+
+    font-size: 2rem;
+    cursor: pointer;
+
+    padding: 10px;
+}
+
+main#welcome button:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    transition: 0.25s;
+}
+
+@media only screen and (max-width: 990px) {
+    main#welcome header {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-height: 560px) {
+    main#welcome button {
+        top: 90%;
+    }
+}
