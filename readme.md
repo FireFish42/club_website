@@ -14,7 +14,6 @@ The Foresters are a group of Woodsmen that love to travel and share their secret
 Project was created with: 
 - HTML
 - CSS
-- CSS Grid
 - CSS Flexbox
 - JavaScript
 
