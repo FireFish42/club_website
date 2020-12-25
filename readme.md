@@ -19,7 +19,7 @@ Project was created with:
 - JavaScript
 
 ## Preview
-Click [this link](https://github.com/FireFish42/mixed_messages)!
+Click [this link](https://firefish42.github.io/club_website/)!
 
 ## Sources
 This website is based off the [Codecademy Pro](https://www.codecademy.com/) Full-Stack Engineer career path Responsive Web Design project. It is meant as a resonsive web design capstone project, putting together knowledge and use of GitHub, Responsive Design, CSS Grid and Flexbox, and media queries.
